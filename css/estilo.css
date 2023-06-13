@@ -6,7 +6,7 @@ body, html{
 }
 
 body{
-    background-color: #f0d7c9;
+    background-color: #e8ffef;
 
 }
 
@@ -18,7 +18,7 @@ body{
 
 header{
     width: 100%;
-    background-color: rgb(223, 29, 29);
+    background-color: rgb(85, 182, 28);
     display: flex;
     justify-content: center;
     height: 150px;
@@ -57,7 +57,7 @@ header #nome h1{
 span{
     width: 100%;
     background-color: black;
-    height: 7px;
+    height: 4px;
     border-radius: 20px;;
 }
 
@@ -74,7 +74,7 @@ span{
 
 nav{
     width: 100%;
-    background-color: #db6565;
+    background-color: #88e076;
     justify-content: center;
     padding: 10px;
     display: flex;
@@ -99,6 +99,7 @@ nav ul a{
     padding: 10px 5vw;
     margin: 2px 0;
     font-weight: 600;
+    color: rgb(97, 31, 151)
 }
 
 nav ul a:hover{
@@ -234,7 +235,7 @@ fieldset{
 footer{
     width: 100%;
     padding: 10px;
-    background-color: #855339;
+    background-color: #32642b;
     display: flex;
     flex-direction: column;
     color: black;
@@ -295,7 +296,7 @@ footer div{
     justify-content: center;
     padding: 10px;
     border: none;
-    background-color: #db6565;
+    background-color: #88e076;
     width: 100%;
 }
 
@@ -310,7 +311,6 @@ footer div{
 #categorias ul a{
     display: flex;
     justify-content: center;
-    color: black;
     text-decoration: none;
     font-weight: 550;
     padding: 5px 0;
@@ -376,6 +376,7 @@ footer div{
 
 .categoriaComida section figure{
     width: 30%;
+    padding: 25px 0
 }
 
 
